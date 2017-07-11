@@ -19,6 +19,10 @@
 
 DEVICE_PATH := device/xiaomi/kenzo
 
+# Powerhal
+TARGET_POWERHAL_VARIANT := qcom
+TARGET_USES_INTERACTION_BOOST := true
+
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := kate,kenzo
