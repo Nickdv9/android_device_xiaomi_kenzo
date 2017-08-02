@@ -1,6 +1,27 @@
 [
   {
-    "repository": "android_device_xiaomi_msm8956-common",
-    "target_path": "device/xiaomi/msm8956-common"
+    "repository":  "Nickdv9/android_device_xiaomi_msm8956-common",
+    "target_path": "device/xiaomi/msm8956-common",
+    "branch":      "cm14.1"
+  },
+  {
+    "repository":  "Nickdv9/android_kernel_xiaomi_msm8956",
+    "target_path": "kernel/xiaomi/msm8956",
+    "branch":      "cm14.1"
+  },
+  {
+    "repository":  "Nickdv9/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch":      "cm14.1"
+  },
+  {
+    "repository":  "ThankYouMario/proprietary_vendor_qcom_sdclang-3.8_linux-x86",
+    "target_path": "prebuilts/snapdragon-llvm/toolchains/llvm-Snapdragon_LLVM_for_Android_3.8/prebuilt/linux-x86_64",
+    "branch":      "nougat-mr1"
+  },
+  {
+    "repository":  "Nickdv9/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu.tar.xz",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu",
+    "branch":      "Linaro_6.3.1"
   }
 ]
