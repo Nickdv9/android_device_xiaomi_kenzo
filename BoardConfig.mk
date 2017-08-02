@@ -32,6 +32,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 26838785024 # 26838801408 - 16384
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_kenzo_defconfig
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu/bin
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
