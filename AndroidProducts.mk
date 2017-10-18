@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/candy.mk
+    $(LOCAL_DIR)/candy_kenzo.mk
