@@ -17,8 +17,8 @@
 
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/candy/config/common.mk)
+# Inherit some common gzosp stuff.
+$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_SCREEN_HEIGHT := 1080
@@ -28,7 +28,7 @@ TARGET_SCREEN_WIDTH := 1920
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := kenzo
-PRODUCT_NAME := candy_kenzo
+PRODUCT_NAME := gzosp_kenzo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi Note 3
 TARGET_VENDOR := Xiaomi
