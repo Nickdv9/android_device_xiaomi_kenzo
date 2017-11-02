@@ -17,7 +17,7 @@
 
 $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common candy stuff.
 $(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
 # Bootanimation
